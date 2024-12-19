@@ -1,0 +1,49 @@
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 5px;
+    width: 350px;
+    margin: 0 auto;
+  }
+  
+  .tile {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border: 2px solid gray;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  .tile.correct {
+    background-color: green;
+}
+.tile.present {
+    background-color: yellow;
+}
+.tile.absent {
+    background-color: gray;
+}
+.tile {
+    width: 40px;  /* Adjust as needed */
+    height: 40px;
+    /* ... other styles ... */
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 400px) { /* Adjust the breakpoint as needed */
+    .tile {
+        width: 30px; /* Smaller tiles for smaller screens */
+        height: 30px;
+        font-size: 14px; /* Smaller font size */
+    }
+}
+
+/* General Styling */
+#game-board {
+    display: grid;
+    grid-template-columns: repeat($wordLength , 1fr); /* Use wordLength variable */
+    gap: 5px;
+    justify-content: center; /* Center the board on the screen */
+}

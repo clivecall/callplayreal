@@ -1,0 +1,38 @@
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(138, 81, 191);
+}
+#edu{
+    text-decoration: underline;
+}
+#exp{
+    text-decoration: underline;
+}
+#lead{
+    text-decoration: underline;
+}
+.common{
+    border: 2px white solid;
+    position: absolute;
+}
+.student{
+    top: 2px;
+    left: 1200px;
+    right: 2px;
+}
+.byu{
+    top: 25px;
+    left: 1200px;
+    right: 2px;
+}
+.date{
+    top: 85px;
+    left: 1200px;
+    right: 2px;
+
+}
